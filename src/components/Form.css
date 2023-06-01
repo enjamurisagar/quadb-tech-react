@@ -1,0 +1,94 @@
+.form-main {
+  width: 100%;
+  margin: 1rem;
+}
+.form-main .heading {
+  font-size: 25px;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.form {
+  display: flex;
+
+  justify-content: center;
+}
+form {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+.show-name,
+.user-name,
+.email,
+.time {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+label {
+  margin: 0 1rem;
+  display: block;
+  width: 15%;
+  font-size: 20px;
+}
+input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 0.25rem;
+}
+.available h1 {
+  text-align: center;
+  margin: 0 1rem;
+  font-size: 20px;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.qty {
+  margin: 0 1rem;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.qty h1 {
+  font-size: 20px;
+  width: 15%;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.minus,
+.plus {
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.form-btn {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.form-btn .button {
+  padding: 0.5rem;
+  border: 2px solid #000;
+  border-radius: 15px;
+  font-size: 17px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.form-btn .button:hover {
+  background: #000;
+}

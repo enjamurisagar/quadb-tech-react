@@ -1,0 +1,73 @@
+.home-main {
+  width: 100%;
+  transition: 0.3s;
+}
+.home-heading {
+  margin: 1rem;
+}
+.home-container {
+  width: 90%;
+  margin: auto;
+}
+.show {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.show-card {
+  margin: 1rem;
+
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.show-card:hover .show-img img {
+  width: 190px;
+}
+.show-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.show-img img {
+  padding: 1rem 0;
+  width: 200px;
+  border-radius: 30px;
+}
+.show-details {
+  padding: 0 2rem;
+}
+.show-details .name {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+}
+.genre {
+  display: flex;
+}
+
+.language {
+  font-size: 17px;
+}
+.rating {
+  font-size: 17px;
+}
+.btn {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.book-now {
+  font-size: 20px;
+  padding: 0.75rem;
+  text-decoration: none;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+.book-now:hover {
+  background: #000;
+  color: #fff;
+}
