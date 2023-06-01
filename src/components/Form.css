@@ -92,3 +92,45 @@ input {
 .form-btn .button:hover {
   background: #000;
 }
+
+/*** RESPONSIVE FOR LAPTOPS ***/
+
+/***FOR LARGE DEVICE ****/
+@media screen and (max-width: 972px) {
+  form {
+    width: 60%;
+  }
+  label {
+    margin: 0 1rem;
+    display: block;
+    width: 30%;
+  }
+  .qty h1 {
+    font-size: 20px;
+    width: 50%;
+  }
+  .time label {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .form-main .heading {
+    font-size: 20px;
+  }
+  form {
+    width: 100%;
+  }
+  label {
+    margin: 0 1rem;
+    display: block;
+    width: 100%;
+  }
+  .qty h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .time label {
+    width: 50%;
+  }
+}

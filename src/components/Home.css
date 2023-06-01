@@ -71,3 +71,51 @@
   background: #000;
   color: #fff;
 }
+/*** RESPONSIVE FOR LAPTOPS ***/
+
+/***FOR LARGE DEVICE ****/
+@media screen and (max-width: 972px) {
+  .show {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .show-card {
+    margin: 0.5rem;
+  }
+  .show-img img {
+    padding: 0.5rem 0;
+    width: 180px;
+    border-radius: 30px;
+  }
+  .show-card:hover .show-img img {
+    width: 170px;
+  }
+  .show-details .name {
+    font-size: 25px;
+  }
+  .book-now {
+    font-size: 17px;
+    padding: 0.5rem;
+  }
+}
+/*** FOR MEDIUM DEVICES ***/
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .show {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .show-card {
+    margin: 1rem 0rem;
+  }
+  .home-heading {
+    margin: 0.5rem 0;
+    font-size: 20px;
+  }
+}
+
+/*** FOR SMALL DEVICES ***/
+@media screen and (max-width: 350px) {
+}
