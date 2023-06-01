@@ -11,8 +11,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/quadb-tech/" element={<Home />} />
-        <Route path={`/quadb-tech/shows/:showid`} element={<ShowDetail />} />
+        <Route path="/quadb-tech-react" element={<Home />} />
+        <Route
+          path={`/quadb-tech-react/shows/:showid`}
+          element={<ShowDetail />}
+        />
       </Routes>
     </div>
   );
