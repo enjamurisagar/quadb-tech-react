@@ -41,7 +41,10 @@ const Home = () => {
                   {item.show.schedule.time}
                 </p>
                 <div className="btn">
-                  <Link to={`/shows/${item.show.id}`} className="book-now">
+                  <Link
+                    to={`/quadb-tech-react/shows/${item.show.id}`}
+                    className="book-now"
+                  >
                     Book Now
                   </Link>
                 </div>
